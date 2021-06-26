@@ -5,7 +5,6 @@ const movies = require('./App')
 const { render } = require('ejs')
 
 async function current (ID) {
-  console.log(ID)
   try {
     const main = await mainDt(ID)
     if (typeof main === 'object') return render(readFileSync(join('_files', 'badge.ejs')).toString(), { main: main, cover: await getBase64(main.coverImage) })
