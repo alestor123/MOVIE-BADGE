@@ -1,0 +1,19 @@
+{
+  "name": "movie-badge",
+  "version": "1.0.0",
+  "description": "This is a simple code for movie badge (currently watching / last seen)",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alestor123/MOVIE-BADGE.git"
+  },
+  "author": "Alestor Aldous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alestor123/MOVIE-BADGE/issues"
+  },
+  "homepage": "https://github.com/alestor123/MOVIE-BADGE#readme"
+}
