@@ -1,0 +1,12 @@
+{
+    "routes":[{
+      "src":"/watching",
+      "dest":"api/currently.js",
+      "methods":["GET"]
+  }],
+  "functions": {
+    "api/currently.js": {
+      "includeFiles": "_files/**"
+    }
+  }
+}
