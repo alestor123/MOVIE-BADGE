@@ -1,5 +1,5 @@
 {
-  "name": "movie-badge",
+  "name": "watching-badge",
   "version": "1.0.0",
   "description": "This is a simple code for movie badge (currently watching / last seen)",
   "main": "App.js",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alestor123/MOVIE-BADGE/issues"
   },
-  "homepage": "https://github.com/alestor123/MOVIE-BADGE#readme"
+  "homepage": "https://github.com/alestor123/MOVIE-BADGE#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }
