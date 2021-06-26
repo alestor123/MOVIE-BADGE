@@ -1,0 +1,46 @@
+<svg width="480" height="133" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <foreignObject width="480" height="133">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="container">
+            <style>
+                div {
+                    font-family: monospace;
+                }
+                .main {
+                    display: flex;
+                }
+
+                .container {
+                    border-radius: 5px;
+                    padding: 10px 10px 10px 0px;
+                }
+
+                .text {
+                    width: 71%;
+                }
+
+                .title {
+                    font-size: 24px;
+                    color: #666;
+                    text-align: center;
+                    margin-top: 20px;
+                }
+
+                .cover {
+                    border-radius: 5px;
+                    height: 100px;
+                    width: 100px;
+                }
+            </style>
+            <div class="main">
+                <a class="art" href="<%= main.imdbUrl %>" target="_BLANK">
+                    <center>
+                            <img src="data:image/jpg;base64, <%= cover %>" class="cover" />
+                    </center>
+                </a>
+                <div class="text">
+                    <div class="title"><%= main[main.type].title %></div>
+                    </div>
+                </div>
+            </div>
+    </foreignObject>
+</svg>
