@@ -1,1 +1,1 @@
-![somewhat](https://watching-badge-alestor123.vercel.app?id=alestor123&&type=svg)
+![somewhat](https://watching-badge-alestor123.vercel.app/watching?id=alestor123&&type=svg)
